@@ -25,6 +25,11 @@ aside .img {
     color: #fff;
 }
 
+#img-user:nth-child(1) {
+    filter:invert(100%)
+
+}
+
 aside p {
     width: 70%;
     font-family: 'Monserrat';
@@ -34,6 +39,11 @@ aside p {
     text-align: center;
 }
 
+aside p :nth-child(1) {
+    margin-left: 5%;
+}
+
 aside p span {
     font-weight: 800;
 }
+
