@@ -1,0 +1,39 @@
+.section-2 {
+    display: flex;
+    background-color: #1A1A38;
+    
+}
+
+.title-2 {
+    position: absolute;
+    top: 110vh;
+    left: 25%;
+    font-family: 'Lato';
+    font-weight: 800;
+    font-size: 5.27vh;
+    color: #fff;
+}
+
+aside {
+    margin-top: 15%;
+    display: block;
+    margin-left: 10%;
+}
+
+aside .img {
+    margin-left: 20%;
+    color: #fff;
+}
+
+aside p {
+    width: 70%;
+    font-family: 'Monserrat';
+    color: #fff;
+    font-style: normal;
+    font-size: 2.63vh;
+    text-align: center;
+}
+
+aside p span {
+    font-weight: 800;
+}
