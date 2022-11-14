@@ -1,0 +1,40 @@
+.section-4 {
+  background: #5e469a;
+  height: 50vh;
+}
+
+.section-4 aside {
+  width: 732px;
+  height: 63px;
+  margin: 0 auto;
+  padding-top: 5%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+}
+
+.section-4 div {
+  width: 254px;
+  height: 50px;
+  margin-left: 40%;
+  margin-top: 5%;
+  top: 2423px;
+  background: #fe219c;
+  border-radius: 203px;
+  color: #ffffff;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.section-4 div span {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  margin: 5% 15%;
+}

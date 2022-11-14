@@ -1,6 +1,7 @@
 .section-2 {
     display: flex;
     background-color: #1A1A38;
+    padding: 5% 0;
     
 }
 
@@ -14,13 +15,18 @@
     color: #fff;
 }
 
-aside {
+.section-2 aside {
     margin-top: 15%;
     display: block;
     margin-left: 10%;
 }
 
-aside .img {
+.section-2 aside:nth-child(2) {
+    border-right: 1px solid #fff;
+    
+}
+
+.section-2 aside .img {
     margin-left: 20%;
     color: #fff;
 }
@@ -30,20 +36,23 @@ aside .img {
 
 }
 
-aside p {
-    width: 70%;
+.section-2 aside p {
+    width: 50%;
     font-family: 'Monserrat';
     color: #fff;
     font-style: normal;
-    font-size: 2.63vh;
+    font-size: 2.83vh;
     text-align: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    text-justify: inter-word;
 }
 
-aside p :nth-child(1) {
+.section-2 aside p :nth-child(1) {
     margin-left: 5%;
 }
 
-aside p span {
+.section-2 aside p span {
     font-weight: 800;
 }
 

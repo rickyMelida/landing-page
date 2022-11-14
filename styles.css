@@ -1,6 +1,9 @@
 @import url(reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url(section_2.css);
+@import url(section_3.css);
+@import url(section_4.css);
+
 
 body {
     margin: 0;
@@ -8,14 +11,13 @@ body {
 
 .container {
     position: absolute;
-    left: -12%;
     background-image: url(./images/bg.png);
     max-width: 120%;
-    max-height: 100vh;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size:cover;
+    margin-bottom: 10%;
 }
-
 .title {
     position: absolute;
     width: 1108px;
